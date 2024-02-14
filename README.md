@@ -37,6 +37,6 @@ Run the Flask application:
 python app.py
 The application will be accessible at http://127.0.0.1:5000/
 
-More detailed explanation in the technical documentation: https://muskanrxl89.atlassian.net/wiki/spaces/~70121a50470c14c3b4c6e8dff5677c0a016c2/blog/2024/02/14/458754/Wiki+Search+Documentation
+More detailed explanation in the technical documentation: #https://docs.google.com/document/d/1aEl5-YjjYtdWvPXvTyFUwAPVWVhKnBAiI4wQ-jvD4bY/
 
 
