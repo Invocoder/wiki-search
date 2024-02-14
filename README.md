@@ -9,8 +9,8 @@ The Wiki Search API provides endpoints to retrieve information about Wikipedia a
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
 - [Endpoints](#endpoints)
-  - [Word Frequency Analysis](#word-frequency-analysis-endpoint)
-  - [Search History](#search-history-endpoint)
+  - [Word Frequency Analysis]
+  - [Search History]
 
 ## Getting Started
 
@@ -37,6 +37,6 @@ Run the Flask application:
 python app.py
 The application will be accessible at http://127.0.0.1:5000/
 
-More detailed explanation in the technical documentation: #https://docs.google.com/document/d/1aEl5-YjjYtdWvPXvTyFUwAPVWVhKnBAiI4wQ-jvD4bY/
+More detailed explanation in the technical documentation: https://docs.google.com/document/d/1aEl5-YjjYtdWvPXvTyFUwAPVWVhKnBAiI4wQ-jvD4bY/
 
 
