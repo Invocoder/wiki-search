@@ -11,9 +11,6 @@ The Wiki Search API provides endpoints to retrieve information about Wikipedia a
 - [Endpoints](#endpoints)
   - [Word Frequency Analysis](#word-frequency-analysis-endpoint)
   - [Search History](#search-history-endpoint)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
