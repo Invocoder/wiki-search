@@ -1,4 +1,6 @@
 from flask import Flask
+import nltk
+nltk.download('stopwords', quiet=True)
 
 app = Flask(__name__)
 app.testing = True

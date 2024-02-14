@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 from collections import Counter
 import re
 from app import app
+import nltk
+from nltk.corpus import stopwords
 
 # in-memory database(List) for storing search history
 search_history = []
@@ -21,8 +23,19 @@ def get_wikipedia_text(topic):
 
 # returns top n words of a wikipedia content text
 def word_frequency_analysis(text, n):
+    # Downloading stop words(if not already downloaded)
+    nltk.download('stopwords', quiet=True)
+
     words = re.findall(r'\b\w+\b', text.lower())
-    word_frequency = Counter(words)
+
+    # Removing stopwords
+    stop_words = set(stopwords.words('english'))
+    filtered_words = [word for word in words if word not in stop_words]
+
+    # Calculating frequency of filtered words
+    word_frequency = Counter(filtered_words)
+
+    # Calculating top n words frequency
     top_words = word_frequency.most_common(n)
     return top_words
 
